@@ -1,0 +1,12 @@
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: min-content;
+    margin: 0 auto;
+    margin-top: 3rem;
+    gap: 1rem;
+    width: 100%;
+
+}

@@ -1,0 +1,26 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 1rem 1rem;
+    outline: 1px solid #555;
+    border-radius: 5px;
+}
+
+.checkbox{
+    cursor: pointer;
+}
+
+.todo:hover{
+    outline: 1px solid #ddd;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.remove-todo{
+    cursor: pointer;
+}
